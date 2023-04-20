@@ -1,0 +1,77 @@
+body {
+    background-image: url(/images/boombg5.png);
+}
+
+#logo 
+  {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#co {
+   
+    display: flex;
+    margin-left: 15px;
+     font-weight: bolder;
+     font-size: larger;
+     text-align: center;
+     color: black
+   
+ }
+ 
+ #log {
+     
+     display: flex;
+    margin-left: auto;
+     font-weight: bolder;
+     font-size: larger;
+     text-align: center;
+     color: black
+ }
+ 
+ #reg {
+     display: flex;
+     margin-left: 15px;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    color: black
+    
+ }
+ 
+ #cyo {
+     
+    display: flex;
+   margin-right: 25px;
+     font-weight: bolder;
+     font-size: larger;
+     text-align: center;
+     color: black 
+     
+ }
+ 
+ #deals {
+     
+     display: flex;
+     margin-right: 15px;
+     font-weight: bolder;
+     font-size: larger;
+     color: black
+ }
+ 
+ #prod {
+     display: flex;
+     margin-right: 15px;
+     font-weight: bolder;
+     font-size: larger;
+     color: black
+ }
+ 
+ #footpara {
+     color: white;
+     margin-top: 5%;
+ }
