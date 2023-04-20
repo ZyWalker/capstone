@@ -1,4 +1,5 @@
 
+
 body {
     background-image: url(/images/boombg5.png);
 }
@@ -8,29 +9,60 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    border: 5px;
+    border-style: inset;
 }
 
+#bigpara{
+    text-align: center;
+}
 .para1 {
-    float: left;
+    display: inline-block;
     margin-right: 80px;
     width: 100px;
+    border-style: double;
+    color: white;
+    font-weight: bold;
+    
    
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;    
+.para1 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+    text-align: justify;    
+    background-color:black;
 }
 
+.para2 {
+    display: inline-block;
+    margin-right: 80px;
+    width: 100px;
+    border-style: double;
+    color: white;
+    font-weight: bold;
+    
+   
+}
+
+.para2 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+    text-align: justify; 
+    background-color: black
+
+
+}
 
 
 #co {
     text-align: right;
     display: block;
+    font-weight: bolder;
+    color: black
   
 }
 
@@ -38,24 +70,41 @@ body {
     text-align: right;
     margin-top: o;
     display: block;
+    font-weight: bolder;
+    color: black
 }
 
 #reg {
     text-align: right;
    display: block;
+   font-weight: bolder;
+   color: black
+   
 }
 
 #cyo {
     text-align: center;
-    display: block
+    display: block;
+    font-weight: bolder;
+    color: black
+    
 }
 
 #deals {
     text-align: center;
     display: block;
+    font-weight: bolder;
+    color: black
 }
 
 #prod {
     text-align: center;
     display: block;
+    font-weight: bolder;
+    color: black
+}
+
+#footpara {
+    color: white;
+    margin-top: 5%;
 }
