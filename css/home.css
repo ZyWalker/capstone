@@ -1,14 +1,21 @@
+
+body {
+    background-image: url(/images/boombg5.png);
+}
+
 .boom1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 700px;
+    border: 5px;
 }
 
 .para1 {
     float: left;
-    margin-right: 10px;
+    margin-right: 80px;
     width: 100px;
+   
 }
 
 .center {
@@ -16,5 +23,39 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;    
+}
+
+
+
+#co {
+    text-align: right;
+    display: block;
+  
+}
+
+#log {
+    text-align: right;
+    margin-top: o;
+    display: block;
+}
+
+#reg {
+    text-align: right;
+   display: block;
+}
+
+#cyo {
     text-align: center;
+    display: block
+}
+
+#deals {
+    text-align: center;
+    display: block;
+}
+
+#prod {
+    text-align: center;
+    display: block;
 }
