@@ -75,3 +75,51 @@ body {
      color: white;
      margin-top: 5%;
  }
+
+ .container {
+    margin-top: 150px;
+}
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .card-body {
+    background-color: black;
+    border-style: groove;
+    border-color: white
+  }
+
+  h5 {
+    color: white;
+    font-weight: bolder;
+  }
+  .form-floating {
+    color: white;
+    font-weight: bolder;
+  }
+  .form-check {
+    color: white;
+    font-weight: bolder;
+  }
+  .btn {
+    background-color: blue;
+    font-weight: bolder;
+  }
+
+
+  #sticky-footer {
+    color: white;
+    margin-top: 5%;
+    size: 100px;
+}
+
+#sticky-footer {
+    
+    background-color: black;
+    border-style: ridge;
+}
+
+

@@ -20,7 +20,7 @@
 
     <a href="#" id="logo"><img src="/images/obl1.jpg.png" alt="logo"></a>
     <a href="login.html" id="log">Log In</a>
-    <a href="register.html" id="reg">Register Here</a>
+    <a href="register.html" id="reg">Register</a>
     <a href="co.html" id="co">Check Out</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                 aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +31,61 @@
     </nav>
     <p>Register</p>
 
-    <form action="">
-        <label for="email">Email</label>
-        <input id="email" type="text" name="email" placeholder="enter email">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-10 col-lg-5 mx-auto">
+            <div class="card border-0 shadow rounded-3 my-5">
+              <div class="card-body p-4 p-sm-5">
+                <h5 class="card-title text-center mb-5 fw-light fs-5">Register</h5>
+                <form>
+                  <div class="form-floating mb-3">
+                    <label for="floatingInput">Username</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="">
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="floatingInput">Email address</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="floatingPassword"> New Password</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="floatingPassword"> Retype Password</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  </div>
+                  <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
+                    <label class="form-check-label" for="rememberPasswordCheck">
+                      Remember password
+                    </label>
+                  </div>
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign
+                      in</button>
+                  </div>
+                
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" placeholder="enter password">
-        
-        <label for="remember me">remember me</label>
-        <input type="checkbox" name="Remember Me" id="remember me">
-    </form>
-    
+
+      <footer>
+        <div id="page-content">
+            <div class="container text-center">
+              <div class="row justify-content-center">
+                <div class="col-md-7">
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white-50">
+            <div class="container text-center">
+              <small>Copyright &copy; Ok Boomerangs</small>
+            </div>
+          </footer>
 </body>
 </html>

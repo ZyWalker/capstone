@@ -134,6 +134,8 @@ body {
     margin-top: 5%;
 }
 
-.bg-white {
+#sticky-footer {
     background-color: black;
+    border-style: inset;
+    border-style: ridge;
 }
