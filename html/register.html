@@ -15,7 +15,7 @@
         <div class="container-fluid">
 
     <a href="prod.html" id="prod">Products</a>
-    <a href="#" id="logo"><img src="/images/obl1.jpg.png" alt="logo"></a>
+    <a href="http://127.0.0.1:5501/html/home.html" id="logo"><img src="/images/obl1.jpg.png" alt="logo"></a>
     <a href="register.html" id="reg">Sign Up</a>
         <a href="login.html" id="log">Sign In</a>
         <a href="co.html" id="co">Check Out</a>
@@ -51,10 +51,12 @@
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Retype Password">
                   </div>
                   <div class="form-check mb-3">
-                    <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
-                    <label class="form-check-label" for="rememberPasswordCheck">
-                      How did you hear about us?
-                    </label>
+                    <select name="how" id="department">
+                      <option value="">How Did You Hear About Us?</option>
+                      <option value="">Family/Friend</option>
+                      <option value="">Advertisement</option>
+                      <option value="">The Grapevine</option>
+                        </select>
                   </div>
                   <div class="d-grid">
                     <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Create Account
@@ -86,3 +88,4 @@
           </footer>
 </body>
 </html>
+
